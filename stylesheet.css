@@ -1,0 +1,185 @@
+body{
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: black;
+}
+body{
+    /* background-color: black; */
+    background-blend-mode: lighten;
+    font-family: monospace;
+}
+
+header{
+    text-decoration: none;
+    color: white;
+}
+
+/* Styling the h1 with the ID "Mridul" */
+#Mridul {
+    background-color: transparent;
+    display: inline-block;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: auto;
+    width: auto;
+}
+#welcome h1{
+    background-color: transparent;
+}
+#welcome{
+    background-image: url(/img/background.jpeg);
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 0 10px;
+    
+}
+#dp{
+    align-items: center;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+#dp img{
+    width: 200px;
+    border-radius: 50%;
+}
+.navbar{
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+.navdiv a:hover{
+    display: flexbox;
+    justify-content: right;
+    background-color: #555;
+    border-radius: 10%;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.navdiv{
+    padding: 10px;
+    display: inline-block;
+    margin: 5px;
+}
+/* main content */
+#introduction {
+    font-size: 20px;
+    background-color: white; 
+    color: black; 
+    padding: 20px; 
+    /* border-radius: 10px;  */
+}
+/* #python{
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    width: 400px;
+    align-items: center;
+}
+#python img{
+    width: 50px;
+}
+#sql{
+    display: inline-block;
+    width: 400px;
+    align-items: center;
+}
+#sql img{
+    width: 50px;
+}
+#linux{
+    display: inline-block;
+    width: 400px;
+    align-items: center;
+}
+#linux img{
+    width: 50px;
+}
+#js{
+    display: inline-block;
+    width: 400px;
+    align-items: center;
+}
+#js img{
+    width: 50px;
+}
+#java{
+    display: inline-block;
+    width: 400px;
+    align-items: center;
+}
+#java img{
+    width: 50px;
+} */
+#python, #sql, #linux, #js, #java {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 400px; /* Set a fixed width for each div */
+    margin: 150px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    /* padding: 10px; */
+}
+
+.Skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    flex-wrap: wrap; /* Allow wrapping if there are too many divs for one line */
+}
+
+.Skills img {
+    width: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: white; /* Dark background for contrast */
+    color: black; /* Light text color for readability */
+    text-align: center; /* Center align text */
+    padding: 20px; /* Add padding for spacing */
+    position: relative; /* Make it take full width of the container */
+    bottom: 0;
+    width: 100%; /* Ensure the footer spans the full width of the viewport */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center align items horizontally */
+    align-items: center; /* Center align items vertically */
+}
+
+#footer div {
+    margin: 0 10px; /* Add spacing between items */
+}
+
+.footer-content {
+    display: flex; /* Use flexbox to center content inside the div */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center align items */
+    font-size: 10px;
+}
