@@ -32,6 +32,7 @@ header{
 #welcome{
     background-image: url(/img/background.jpeg);
     display: flex;
+    background-size: auto;
     background-color: transparent;
     flex-direction: column;
     height: 100vh;
@@ -86,82 +87,82 @@ nav{
     background-color: white; 
     color: black; 
     padding: 20px; 
-    /* border-radius: 10px;  */
+    width: 80vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
-/* #python{
-    position: relative;
-    top: 20px;
-    display: inline-block;
-    width: 400px;
-    align-items: center;
-}
-#python img{
-    width: 50px;
-}
-#sql{
-    display: inline-block;
-    width: 400px;
-    align-items: center;
-}
-#sql img{
-    width: 50px;
-}
-#linux{
-    display: inline-block;
-    width: 400px;
-    align-items: center;
-}
-#linux img{
-    width: 50px;
-}
-#js{
-    display: inline-block;
-    width: 400px;
-    align-items: center;
-}
-#js img{
-    width: 50px;
-}
-#java{
-    display: inline-block;
-    width: 400px;
-    align-items: center;
-}
-#java img{
-    width: 50px;
-} */
-#python, #sql, #linux, #js, #java {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    height: 400px; /* Set a fixed width for each div */
-    margin: 150px;
-    background-color: white;
-    color: black;
-    text-align: center;
-    font-size: 17px;
-    /* padding: 10px; */
-}
-
-.Skills {
+#heading{
     display: flex;
-    justify-content: center;
+    background-image: url(/img/background.jpeg);
+    height: 50px;
     align-items: center;
-    text-align: center;
-    padding: 20px;
-    flex-wrap: wrap; /* Allow wrapping if there are too many divs for one line */
+    justify-content: center;
 }
 
+.skill-card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    font-size: 17px;
+    align-items: center;
+    color: black;
+    border-radius: 10%;
+    padding: 20px;
+    margin: 10px;
+}
+.Skills {
+    width: 1200px;
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: transparent;
+}
+#skill-secion{
+    background-color: white;
+}
 .Skills img {
     width: 50px;
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+#python {
+    background-color: #306998; /* Soft Blue for Python */
+    color: white;
+}
+
+#sql {
+    background-color: #6a0dad; /* Deep Purple for SQL */
+    color: white;
+}
+
+#linux {
+    background-color: #333333; /* Dark Gray for Linux */
+    color: white;
+}
+
+#js {
+    background-color: #f0db4f; /* Bright Yellow for JavaScript */
+    color: black;
+}
+
+#java {
+    background-color: #b07219; /* Rich Red for Java */
+    color: white;
+}
+
+#aws {
+    background-color: #ff9900; /* Orange for AWS */
+    color: black;
+}
+
 footer {
-    background-color: white; /* Dark background for contrast */
+    background-color: rgb(204, 204, 204); /* Dark background for contrast */
     color: black; /* Light text color for readability */
     text-align: center; /* Center align text */
     padding: 20px; /* Add padding for spacing */
