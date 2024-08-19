@@ -3,6 +3,7 @@ body{
     margin: 0;
     color: white;
     background-color: black;
+    width: 100vw;
 }
 body{
     /* background-color: black; */
@@ -40,7 +41,6 @@ header{
     align-items: center;
     justify-content: center;
     color: white;
-    padding: 0 10px;
     
 }
 #dp{
@@ -62,7 +62,6 @@ header{
     text-decoration: none;
     color: white;
     font-size: 20px;
-    padding: 5px 10px;
     transition: background-color 0.3s ease;
 }
 .navdiv a:hover{
@@ -165,7 +164,7 @@ footer {
     background-color: rgb(204, 204, 204); /* Dark background for contrast */
     color: black; /* Light text color for readability */
     text-align: center; /* Center align text */
-    padding: 20px; /* Add padding for spacing */
+    /* padding: 20px;  */
     position: relative; /* Make it take full width of the container */
     bottom: 0;
     width: 100%; /* Ensure the footer spans the full width of the viewport */
